@@ -62,11 +62,17 @@
 
 本 skill 设计为配合 `literary-fanfic-orchestrator` 元 skill 使用——作为阶段 5（场景写作）中 `scene-craft` 的前置步骤。可独立使用，但推演编织效果依赖于元 skill 中的约束体系。
 
-## 快速开始
+## 安装
 
-1. 复制 `SKILL.md` 到 `~/.claude/skills/ensemble-deduction/`
-2. 重启 Claude Code
-3. 在多角色互动场景写作时，使用触发词："跑一下互动""角色推演""多agent"
+```bash
+git clone https://github.com/Devin-Light/ensemble-deduction.git /tmp/ensemble-deduction
+mkdir -p ~/.claude/skills/ensemble-deduction
+cp /tmp/ensemble-deduction/SKILL.md ~/.claude/skills/ensemble-deduction/SKILL.md
+```
+
+重启 Claude Code 后生效。使用触发词："跑一下互动""角色推演""多agent"。
+
+> 也支持 AI 自举安装：将仓库 URL 发给 Claude Code，让它按上述步骤自动完成安装。
 
 ## 许可
 
