@@ -16,7 +16,7 @@ triggers:
 
 ## 角色纲引领用
 
-所有角色的人设基准存储在 `fanfic-yimeng-fusheng/character-profiles.md`。导演在注入 Agent 前，必须从该文件提取对应角色的纲领，结合当前章节的弧光状态一并注入。
+所有角色的人设基准存储在项目子 skill 的 `character-profiles/` 目录中（每个角色一个 `.md` 文件）。导演在注入 Agent 前，必须从对应文件提取角色纲领，结合当前章节的弧光状态一并注入。
 
 ---
 
